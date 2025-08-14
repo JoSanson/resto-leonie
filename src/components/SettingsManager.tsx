@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from './ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { MenuItem, Order } from '../types'
+import type { MenuItem, Order } from '../types'
 import { Trash2, AlertTriangle, CheckCircle, RotateCcw } from 'lucide-react'
 
 export function SettingsManager() {

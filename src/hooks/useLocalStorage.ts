@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function getStorageValue<T>(key: string, defaultValue: T): T {
   if (typeof window === 'undefined') {

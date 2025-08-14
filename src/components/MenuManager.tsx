@@ -4,7 +4,7 @@ import { Input } from './ui/input'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Badge } from './ui/badge'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { MenuItem } from '../types'
+import type { MenuItem } from '../types'
 import { Plus, Trash2, Edit } from 'lucide-react'
 
 export function MenuManager() {

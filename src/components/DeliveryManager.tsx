@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Badge } from './ui/badge'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { Order } from '../types'
+import type { Order } from '../types'
 import { Package, CheckCircle, Eye, Clock, Euro } from 'lucide-react'
 
 export function DeliveryManager() {

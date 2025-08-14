@@ -1,10 +1,10 @@
 import { useState, useMemo } from 'react'
 import { Button } from './ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
+import { Card, CardContent } from './ui/card'
 import { Badge } from './ui/badge'
 import { CelebrationPopup } from './CelebrationPopup'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { MenuItem, OrderItem, Order } from '../types'
+import type { MenuItem, OrderItem, Order } from '../types'
 import { Plus, Minus, ShoppingCart, Trash2 } from 'lucide-react'
 
 export function OrderTaker() {
